@@ -1,11 +1,13 @@
 package com.example.inventoryservice;
 
 import com.example.inventoryservice.entities.Product;
+import com.example.inventoryservice.entities.RestConfiguration;
 import com.example.inventoryservice.repositories.ProductRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
 @SpringBootApplication
 public class InventoryApplication {
